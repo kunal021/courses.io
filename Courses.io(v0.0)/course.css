@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.Body{
+    background-color: #F8F5E4;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.heading{
+    font-size: 15vh;
+    font-family: 'Tilt Warp', cursive;
+    color: #2f5cff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contain{
+    font-family: 'Tilt Warp', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;
+    align-items: start;
+    
+}
+
+.contain-course{
+    color: #2f5cff;
+    font-size: 3.3vh;
+    padding-bottom: 10px;
+}
+
+.course{
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px #0f0f0f;
+}
+
+.course iframe{
+    width: 350px;
+    height: 200px;
+    border: 1px;
+    border-radius: 7px 7px 0 0;
+}
+
+
+.course a{
+    padding-top: 10px;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #2f5cff;
+    font-weight: 500px;
+}
+
+
+
+@media (max-width: 830px){
+    .course iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    .contain-course{
+        font-size: 3vh;
+    }
+
+    .course a{
+        font-size: 3vh;
+    }
+}
+
+
+@media (max-width: 750px){
+    .contain{
+        display: flex;
+        justify-content: center;
+    }
+
+    .course iframe{
+        width: 380px;
+        height: 240px;
+    }
+
+    .contain-course{
+        font-size: 3.5vh;
+    }
+
+    .course a{
+        font-size: 3vh;
+    }
+}
+
+
+@media (max-width: 450px){
+    .heading{
+        font-size: 10vh;
+    }
+
+    .contain{
+        display: flex;
+        justify-content: center;
+    }
+
+    .course iframe{
+        width: 250px;
+        height: 180px;
+    }
+
+    .contain-course{
+        font-size: 2.5vh;
+    }
+
+    .course a{
+        font-size: 2.5vh;
+    }
+}
