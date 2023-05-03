@@ -43,15 +43,9 @@ h1{
     width: 70%;
 }
 
-.img-4{ 
-    padding-left: 10%;
-    width: 70%;
-}
-
 .card-1,
 .card-2,
-.card-3,
-.card-4{
+.card-3{
     box-shadow: 8px 8px #0f0f0f;
     transition: 0.3s;
     width: 350px;
@@ -63,8 +57,7 @@ h1{
 
 .container-1,
 .container-2,
-.container-3,
-.container-4{
+.container-3{
     padding: 2px 16px;
     background-color: #fff;
     font-family: 'Tilt Warp', cursive;
@@ -104,8 +97,7 @@ h1{
 
     .card-1,
     .card-2,
-    .card-3,
-    .card-4{
+    .card-3{
         width: 250px;
     }
 }
@@ -120,8 +112,7 @@ h1{
 
     .container-1,
     .container-2,
-    .container-3,
-    .container-4{
+    .container-3{
         font-size: 20px;
     }
 }
