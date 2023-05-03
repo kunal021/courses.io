@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #F8F5E4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wb-header,.ml-header,
+.dsa-header{
+    font-size: 9vh;
+    font-family: 'Tilt Warp', cursive;
+    color: #2f5cff;
+    display: flex;
+    justify-content: center;
+}
+
+.wb-title,.ml-title,
+.dsa-title{
+    color: #2f5cff;
+}
+
+.wb-container,.ml-container,
+.dsa-container{
+    font-family: 'Tilt Warp', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;
+    align-items: start;
+    
+}
+
+.wb-course,.ml-course,
+.dsa-course{
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px #0f0f0f;
+}
+
+.wb-course iframe,
+.ml-course iframe,
+.dsa-course iframe{
+    width: 350px;
+    height: 200px;
+    border: 2px;
+    border-radius: 0 0 9px 9px;
+}
+
+.dsa-java, .dsa-cpp,
+.dsa-python{
+    font-family: 'Tilt Warp', cursive;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    color: #2f5cff;
+    font-size: 7vh;
+}
+
+
+@media (max-width: 830px){
+    .wb-header,.ml-header,
+    .dsa-header{
+        font-size: 8vh;
+    }
+
+    .wb-course iframe,
+    .ml-course iframe,
+    .dsa-course iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 750px){
+    .wb-container,.ml-container,
+    .dsa-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .wb-header,.ml-header,
+    .dsa-header{
+        font-size: 5vh;
+    }
+
+    .wb-course iframe,
+    .ml-course iframe,
+    .dsa-course iframe{
+        width: 380px;
+        height: 240px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .wb-header,.ml-header,
+    .dsa-header{
+        font-size: 3vh;
+    }
+
+    .wb-container,.ml-container,
+    .dsa-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .wb-title,.ml-title,
+    .dsa-title{
+        font-size: 2.5vh;
+    }
+
+    .wb-course iframe,
+    .ml-course iframe,
+    .dsa-course iframe{
+        width: 250px;
+        height: 180px;
+    }
+}
